@@ -1,0 +1,29 @@
+
+html {
+    background-color:darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-text {
+    color: blue;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+img {
+    border-radius: 15px;
+}
